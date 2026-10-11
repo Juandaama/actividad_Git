@@ -1,0 +1,45 @@
+{
+  "agent": {
+    "name": "Ling 3.1 Flash Free",
+    "modelID": "ling-3.1-flash-free",
+    "fullID": "opencode/ling-3.1-flash-free",
+    "providerID": "opencode",
+    "providerName": "Personal / OpenCode",
+    "released": 1790640000000,
+    "releasedISO": "2026-09-29T00:00:00.000Z",
+    "variants": [],
+    "costPerMillionTokens": {
+      "input": 0,
+      "output": 0,
+      "cacheRead": 0,
+      "cacheWrite": 0
+    },
+    "status": "active"
+  },
+  "harness": {
+    "name": "OpenCode",
+    "platform": "win32",
+    "workingDirectory": "C:\\Users\\juand\\Documents\\actividad_Git\\actividad_Git",
+    "isGitRepo": true,
+    "date": "2026-10-11",
+    "configDirectory": "C:\\Users\\juand\\.config\\opencode"
+  },
+  "capabilities": {
+    "subagents": ["explore", "general"],
+    "skills": ["opencode", "report"],
+    "tools": [
+      "read",
+      "write",
+      "edit",
+      "glob",
+      "grep",
+      "shell",
+      "webfetch",
+      "websearch",
+      "question",
+      "subagent",
+      "skill",
+      "execute (code mode)"
+    ]
+  }
+}
