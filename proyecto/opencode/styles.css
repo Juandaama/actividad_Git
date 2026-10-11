@@ -1,0 +1,63 @@
+/* ===== Estilos para Proyecto Librería ===== */
+
+/* --- Variables de colores y fuentes --- */
+:root {
+    --color-primario: #5b4636;      /* marrón libro */
+    --color-secundario: #8b6f4e;    /* marrón claro */
+    --color-fondo: #faf6ef;         /* beige papel */
+    --color-texto: #2e2a26;         /* texto oscuro */
+    --color-acento: #b54534;        /* rojo vintage */
+    --fuente-titulos: Georgia, 'Times New Roman', serif;
+    --fuente-cuerpo: 'Segoe UI', Arial, sans-serif;
+}
+
+/* --- Reset básico --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--fuente-cuerpo);
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    line-height: 1.7;
+    padding: 2rem;
+}
+
+/* --- Encabezado --- */
+h1 {
+    font-family: var(--fuente-titulos);
+    font-size: 2.8rem;
+    color: var(--color-primario);
+    text-align: center;
+    margin-bottom: 1.5rem;
+    border-bottom: 3px solid var(--color-acento);
+    padding-bottom: 0.8rem;
+}
+
+/* --- Párrafos --- */
+p {
+    max-width: 45rem;
+    margin: 0 auto;
+    text-align: justify;
+    font-size: 1.1rem;
+    color: #4a4440;
+}
+
+/* --- Diseño responsive --- */
+@media (max-width: 600px) {
+    body {
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        text-align: left;
+        font-size: 1rem;
+    }
+}
